@@ -1,0 +1,415 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    
+    },
+    {
+      "tag": "kiwi",
+      "patterns": [
+        "Tell me a kiwi!",
+        "I love kiwi!",
+        "I love to peel kiwi?"
+      ],
+      "responses": [
+        "Why did the kiwi betray",
+        "What did something kiwi"
+      ]
+    
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "tag": "moneyplant1",
+      "patterns": [
+        "How much should I water my money plant?",
+        "How frequently should I water my money plant?"
+        
+      ],
+      "responses": [
+        "It requires only about 6-8 ounces water every 3 weeks"
+  
+      ]
+    },
+    {
+      "tag": "moneyplant2",
+      "patterns": [
+          "For how long should I keep my money plant under sunlight?",
+          "How much sunlight is required for money plant?"
+      ],
+      "responses": [
+        "It requires 10-30 mins of midday, sunlight several times per week"
+        
+      ]
+    },
+    {
+      "tag": "moneyplant3",
+      "patterns": [
+        "What kind of soil is required for money plant?",
+        "Which fertilizers should I use for my money plant?"
+        
+      ],
+      "responses": [
+        "Money plant requires well-drained soil and a mixture of banana peels as fertilizer.",
+        "Tea can be used as fertilizer and well-drained soil is required."
+        
+      ]
+    },
+    
+  
+    
+  
+    {
+      "tag": "rose1",
+      "patterns": [
+          "How much should I water my rose?",
+          "How frequently should I water my rose?"
+      ],
+      "responses": [
+        " In extremely hot weather you should assume rose plants will need watering daily. On a standard summer day with decent heat, you will need to water every two or three days, and in warm dry weather you will only need to water about once a week."
+      ]
+    },
+    {
+      "tag": "rose2",
+      "patterns": [
+          "For how long should I keep my rose under sunlight?",
+          "How much sunlight is required for rose?"
+      ],
+      "responses": [
+        "Most rose plants require at least 6 to 8 hours of sunlight per day to flourish."
+      ]
+    },
+    {
+      "tag": "rose3",
+      "patterns": [
+          "What kind of soil is required for rose?",
+          "Which fertilizers should I use for my rose?"
+      ],
+      "responses": [
+        "Roses like to grow in good, fertile, well-drained soil with moisture retention capacity. A soil mixture should also contain 1 part farm yard manure & 1 part bio-compost."
+      ]
+    },
+    
+  
+    
+  
+    {
+      "tag": "hibiscus1",
+      "patterns": [
+          "How much should I water my hibiscus?",
+          "How frequently should I water my hibiscus?"
+      ],
+      "responses": [
+        "Hibiscus need to be watered often when the weather is warm, and even more when it is hot."
+      ]
+    },
+    {
+      "tag": "hibiscus2",
+      "patterns": [
+          "For how long should I keep my hibiscus under sunlight?",
+          "How much sunlight is required for hibiscus?"
+      ],
+      "responses": [
+        "Give it around six hours of sunshine, and it will grow well."
+      ]
+    },
+    {
+      "tag": "hibiscus3",
+      "patterns": [
+          "What kind of soil is required for hibiscus?",
+          "Which fertilizers should I use for my hibiscus?"
+      
+      ],
+      "responses": [
+       
+        "Hibiscus thrives in any soil but it should be well-drained. Use of chemical-based fertilizers is a NO."
+      ]
+    },
+    
+    {
+      "tag": "bamboo1",
+      "patterns": [
+          "How much should I water my bamboo?",
+          "How frequently should I water my bamboo?"
+      ],
+      "responses": [
+        "They should be watered often, at least once a week."
+      ]
+    },
+    {
+      "tag": "bamboo2",
+      "patterns": [
+          "For how long should I keep my bamboo under sunlight?",
+          "How much sunlight is required for bamboo?"
+      ],
+      "responses": [
+        "Most bamboo, with a few exceptions, prefer to grow in full sun."
+      ]
+    },
+    {
+      "tag": "bamboo3",
+      "patterns": [
+          "What kind of soil is required for bamboo?",
+          "Which fertilizers should I use for my bamboo?"
+      ],
+      "responses": [
+        "Most bamboos grow best in deep, well-drained, fertile soils, and they generally prefer neutral to slightly acid soils."
+      ]
+    },
+    
+    {
+      "tag": "bougainvillea1",
+      "patterns": [
+          "How much should I water my bougainvillea?",
+          "How frequently should I water my bougainvillea?"
+      ],
+      "responses": [
+          "Bougainvillea likes it dry. It prefers a good, deep watering every three or four weeks to frequent shallow waterings."
+      ]
+    },
+    {
+      "tag": "bougainvillea2",
+      "patterns": [
+          "For how long should I keep my bougainvillea under sunlight?",
+          "How much sunlight is required for bougainvillea?"
+      ],
+      "responses": [
+        "They need at least six to eight hours of sunlight a day to produce their colours."
+      ]
+    },
+    {
+      "tag": "bougainvillea3",
+      "patterns": [
+          "What kind of soil is required for bougainvillea?",
+          "Which fertilizers should I use for my bougainvillea?"
+      ],
+      "responses": [
+        "your soil needs to be fairly well-drained and have a slightly acidic pH, somewhere between 5.5-6.0. Also,they need low nitrogen high phosphorus fertilizer."
+      ]
+    },
+    
+    {
+      "tag": "jasmine1",
+      "patterns": [
+          "How much should I water my jasmine?",
+          "How frequently should I water my jasmine?"
+      ],
+      "responses": [
+         "Jasmine flowers that are in-ground should be watered once a week. If it is unusually dry or hot, increase the frequency, but let the soil dry out in between."
+      ]
+    },
+    {
+      "tag": "jasmine2",
+      "patterns": [
+          "For how long should I keep my jasmine under sunlight?",
+          "How much sunlight is required for jasmine?"
+      ],
+      "responses": [
+        "Usually about 6 hours or more of direct sunlight each day for full sun, and 2 – 4 hours per day for partial shade."
+      ]
+    },
+    {
+      "tag": "jasmine3",
+      "patterns": [
+          "What kind of soil is required for jasmine?",
+          "Which fertilizers should I use for my jasmine?"
+      ],
+      "responses": [
+        "Well-drained, rich loamy soil with a pH ranging from 6.5-7.5 is ideal for their cultivation and  Charged Micro-organism and ++ Micronutrients."
+      ]
+    },
+    
+    {
+      "tag": "marigold1",
+      "patterns": [
+          "How much should I water my marigold?",
+          "How frequently should I water my marigold?"
+      ],
+      "responses": [
+        "Marigolds need moist soil for the first week or two after planting to establish a strong root system. Once established, they require watering around once per week."
+      ]
+    },
+    {
+      "tag": "marigold2",
+      "patterns": [
+          "For how long should I keep my marigold under sunlight?",
+          "How much sunlight is required for margold?"
+      ],
+      "responses": [
+        "Marigold plants require at least six hours of direct sunlight daily to thrive."
+      ]
+    },
+    {
+      "tag": "marigold3",
+      "patterns": [
+          "What kind of soil is required for marigold?",
+          "Which fertilizers should I use for my marigold?"
+      ],
+      "responses": [
+        "Sandy loam soil having pH 7.0-7.5 with good aeration and drainage, also Water Soluble Fertilizers such as Polyfeed (19:19:19), Potassium Nitrate (13:0:45)."
+      ]
+    },
+    
+    {
+      "tag": "morningglory1",
+      "patterns": [
+          "How much should I water my morning glory?",
+          "How frequently should I water my morning glory?"
+      ],
+      "responses": [
+        "Water freely during growing season and once or twice a week during dry periods; but again, established morning glory plants can tolerate drier conditions."
+      ]
+    },
+    {
+      "tag": "morningglory2",
+      "patterns": [
+          "For how long should I keep my morning glory under sunlight?",
+          "How much sunlight is required for morning glory?"
+      ],
+      "responses": [
+        "Plant them where they'll get at least 8 hours of direct light per day during the growing season."
+      ]
+    },
+    {
+      "tag": "morningglory3",
+      "patterns": [
+          "What kind of soil is required for morning glory?",
+          "Which fertilizers should I use for my morning glory?"
+      ],
+      "responses": [
+        "Morning glories thrive in moist yet well-draining soil. Morning glories prefer a neutral soil pH of 6.0 to 6.8 and all-purpose fertilizer with equal amounts of nitrogen, phosphorus and potassium, indicated by a ratio on the label, such as 10-10-10."
+      ]
+    },
+    
+    {
+      "tag": "daisy1",
+      "patterns": [
+          "How much should I water my daisy?",
+          "How frequently should I water my daisy?"
+      ],
+      "responses": [
+       "While daisies don't have a specific watering schedule, you do need to water them periodically."
+      ]
+    },
+    {
+      "tag": "daisy2",
+      "patterns": [
+          "For how long should I keep my daisy under sunlight?",
+          "How much sunlight is required for daisy?"
+      ],
+      "responses": [
+        "Plant them in full sun for the best and most rewarding blooms all season long."
+      ]
+    },
+    {
+      "tag": "daisy3",
+      "patterns": [
+          "What kind of soil is required for daisy?",
+          "Which fertilizers should I use for my daisy?"
+      ],
+      "responses": [
+        "Daisies like rich, fast draining soil, ample water and plenty of sunshine and during the spring and summer, feed your daisies monthly with an all-purpose fertilizer"
+      ]
+    }
+    
+  
+  
+  
+  ]
+}

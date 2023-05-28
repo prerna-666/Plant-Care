@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>PlantCare</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="C:\Users\Malvika\Desktop\WMN\style.css">
+
+ </head>
+ <body>
+ 	
+
+ 	<header>
+        <div id="menu-bar" class="fas fa-bars"></div>''
+ 		<a href="#" class="logo"><span>Plant</span>Care</a>
+ 		<nav class="navbar">
+ 			<a href="#home">home</a>
+ 			<a href="#book">book</a>
+ 			<a href="#packages">gardeners</a>
+ 			<a href="#services">services</a>
+ 			<a href="#gallery">gallery</a>
+ 			<a href="#review">review</a>
+ 			<a href="#contact">contact</a>
+ 		</nav>
+
+ 		<div class="icons">
+ 			<i class="fas fa-search" id="search-btn"></i>
+ 			<i class="fas fa-user" id="login-btn"></i>
+ 		</div>
+
+ 		<form action="" class="search-bar-container">
+ 			<input type="search" id="search-bar" placeholder="search here...">
+ 			<label for="search-bar" class="fas fa-search"></label>
+ 		</form>
+
+ 	</header>
+
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="passward" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <section class="home" id="home">
+        
+        <div class="content">
+            <h3>To plant a garden</h3>
+            <p>is to believe in tomorrow!</p>
+            <a href="http://127.0.0.1:5000" class="btn">plantBot</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="C:\Users\Malvika\Desktop\WMN\videos\vid-3.mp4"> </span>
+            <span class="vid-btn" data-src="C:\Users\Malvika\Desktop\WMN\videos\vid-2.mp4"> </span>
+            <span class="vid-btn" data-src="C:\Users\Malvika\Desktop\WMN\videos\vid-1.mp4"> </span>
+            <span class="vid-btn" data-src="C:\Users\Malvika\Desktop\WMN\videos\vid-4.mp4"> </span>
+            <span class="vid-btn" data-src="C:\Users\Malvika\Desktop\WMN\videos\vid-5.mp4"> </span>
+        </div>
+
+        <div class="video-container">
+            <video src="C:\Users\Malvika\Desktop\WMN\videos\vid-3.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+
+    <!--book section-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\img-1.png " alt="">
+            </div>
+
+            <form action="",id="contactForms">
+                <div class="inputBox">
+                    <h3>Name of gardener</h3>
+                    <input type="number" placeholder="number of guests" id="name">
+                </div>
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name" id="placename">
+                </div>
+                <div class="inputBox">
+                    <h3>arrival of gardener</h3>
+                    <input type="date" id="arrival" >
+                </div>
+                <div class="inputBox">
+                    <h3>till</h3>
+                    <input type="date" id="till" >
+                </div>
+                <input type="submit" class="btn" value="book now">
+
+
+            </form>
+        </div>
+
+    </section>
+
+    <!-- packages section starts -->
+
+    <section class="packages" id="packages">
+
+         <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>r</span>
+                <span>d</span>
+                <span>e</span>
+                <span>n</span>
+                <span>e</span>
+                <span>r</span>
+                <span>s</span>
+                
+        </h1>
+
+    <div class="box-container">
+        <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard1.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Mary</h3>
+                    <p>Experience: 10 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div> 
+
+        <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard2.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Annie</h3>
+                    <p>Experience: 5 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div> 
+
+        <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard3.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Jenna</h3>
+                    <p>Experience: 4 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div> 
+
+         <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard4.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Rachel</h3>
+                    <p>Experience: 7 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div>
+
+         <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard5.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Susan</h3>
+                    <p>Experience: 6 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div> 
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div>
+
+         <div class="box">
+                <img src="C:\Users\Malvika\Desktop\WMN\images\gard6.png" alt="">
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i>Lisa</h3>
+                    <p>Experience: 4 years</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div> 
+                    <div class="price"> $90.00 <span> $120.00</span></div>
+                    <a href="#" class="btn">call now</a>
+                </div>  
+        </div>
+
+    </div>
+
+    </section>
+    <!-- packages sections ends -->
+
+    <!--service section starts -->
+
+    <section class="services" id="services">
+
+         <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                
+                <h3>Pruning flower trees</h3>
+                <p>Pruning is the process of cutting away dead or overgrown branches or stems to promote healthy plant growth.</p>  
+            </div>
+
+            <div class="box">
+                
+                <h3>Tree topping</h3>
+                <p>Tree topping is the removal of large amounts of leaves and branches from a tree's crown.</p>  
+            </div>
+
+            <div class="box">
+                
+                <h3>Control of weeds, pests</h3>
+                <p>Weed control is a type of pest control, which attempts to stop or reduce growth of weeds, especially noxious weeds.</p>  
+            </div>
+
+            <div class="box">
+                
+                <h3>Mulching</h3>
+                <p>Mulch will reduce the amount of water that evaporates from your soil, greatly reducing your need to water your plants.</p>
+            </div>
+
+            <div class="box">
+               
+                <h3>Mowing</h3>
+                <p>Mowing is an act of leveling or cutting down grass, grain, etc., with a mowing machine or scythe.</p>  
+            </div>
+
+            <div class="box">
+                
+                <h3>Planting seeds</h3>
+                <p>Sowing is a process of planting seeds into the soil.</p>  
+            </div>
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+
+    <!--gallery section starts -->
+
+        <section class="gallery" id="gallery">
+            
+            <h1 class="heading">
+                <span>g</span>
+                <span>a</span>
+                <span>l</span>
+                <span>l</span>
+                <span>e</span>
+                <span>r</span>
+                <span>y</span>
+            </h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g1.png" alt="">
+                    <div class="content">
+                        <h3>Money Plant</h3>
+                        <p>Cost: Rs 30/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                 <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g2.png" alt="">
+                    <div class="content">
+                        <h3>Rose</h3>
+                        <p>Cost: Rs 25/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g3.png" alt="">
+                    <div class="content">
+                        <h3>Hibiscus</h3>
+                        <p>Cost: Rs 12/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g4.png" alt="">
+                    <div class="content">
+                        <h3>Bamboo</h3>
+                        <p>Cost: Rs 225/Quintal </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g5.png" alt="">
+                    <div class="content">
+                        <h3>Bougainvillea</h3>
+                        <p>Cost: Rs 50/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g6.png" alt="">
+                    <div class="content">
+                        <h3>Jasmine</h3>
+                        <p>Cost: Rs 120/quintal </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g7.png" alt="">
+                    <div class="content">
+                        <h3>Marigold</h3>
+                        <p>Cost: Rs 1.80/piece</p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g8.png" alt="">
+                    <div class="content">
+                        <h3>Morning glory</h3>
+                        <p>Cost: Rs 100/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="C:\Users\Malvika\Desktop\WMN\images\g9.png" alt="">
+                    <div class="content">
+                        <h3>Daisy</h3>
+                        <p>Cost: Rs 1/piece </p>
+                        <a href="#" class="btn">see more</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+    <!--gallery section ends -->
+
+    <!--review section starts-->
+
+    <section class="review" id="review">
+        
+        <h1 class="heading">
+                <span>r</span>
+                <span>e</span>
+                <span>v</span>
+                <span>i</span>
+                <span>e</span>
+                <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+            
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="C:\Users\Malvika\Desktop\WMN\images\r1.png" alt="">
+                        <h3>John B</h3>
+                        <p>"I hired a gardener from PlantCare, and I must say I'm extremely impressed with their work. They transformed my backyard into a beautiful oasis."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="C:\Users\Malvika\Desktop\WMN\images\r2.png" alt="">
+                        <h3>Rosie P</h3>
+                        <p>"I recently had the pleasure of working with PlantCare for my garden project, and I couldn't be happier with the results. The gardener was punctual and professional. "</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="C:\Users\Malvika\Desktop\WMN\images\r3.png" alt="">
+                        <h3>Marie A</h3>
+                        <p>"I had a fantastic experience with PlantCare. Their team of gardeners was incredibly skilled and passionate about their work. They completely revitalized my front yard"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="C:\Users\Malvika\Desktop\WMN\images\r4.png" alt="">
+                        <h3>Annable I</h3>
+                        <p>"I recently moved into a new home with an overgrown backyard, and I enlisted the help of PlantCare. The gardeners did an outstanding job clearing the overgrowth and pruning trees"</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swaper-slide">
+                    <div class="box">
+                        <img src="C:\Users\Malvika\Desktop\WMN\images\h5.png" alt="">
+                        <h3>Ben K</h3>
+                        <p>"I can't say enough good things about PlantCare. The gardener I worked with was not only highly skilled but also incredibly friendly and accommodating."</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--review section ends-->
+
+    <!--contact section starts-->
+
+        <section class="contact">
+            
+             <h1 class="heading">
+                <span>c</span>
+                <span>o</span>
+                <span>n</span>
+                <span>t</span>
+                <span>a</span>
+                <span>c</span>
+                <span>t</span>
+            </h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="C:\Users\hp\Desktop\transportation\indes\images\c1.jpg" alt="">
+                </div>
+
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="name">
+                         <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="number">
+                         <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="send message">
+                </form>
+                
+            </div>
+
+        </section>
+
+    <!--contact section ends-->
+
+    <!--brand section starts-->
+
+        <section class="brand-container">
+            
+            <div class="swiper-container brand-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b5.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="C:\Users\hp\Desktop\transportation\indes\images\b6.jpg" alt=""></div>
+                </div>
+            </div>
+
+        </section>
+
+    <!--brand section ends-->
+
+    <!--footer section starts-->
+
+        <section class="footer">
+            <div class="box-container">
+
+                <div class="box">
+                    <h3>about us</h3>
+                    <p>At PlantCare, we are committed to sustainable and eco-friendly practices. We strive to minimize environmental impact by utilizing organic fertilizers, implementing water-saving techniques, and promoting natural pest control methods.</p>
+                </div>
+                <div class="box">
+                    <h3>branch locations</h3>
+                    <a href="#">india</a>
+                    <a href="#">USA</a>
+                    <a href="#">japan</a>
+                    <a href="#">spain</a>
+                </div>
+
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#">home</a>
+                    <a href="#">book</a>
+                    <a href="#">packages</a>
+                    <a href="#">services</a>
+                    <a href="#">gallery</a>
+                    <a href="#">review</a>
+                    <a href="#">contact</a>
+                </div>
+
+                <div class="box">
+                    <h3>follow us</h3>
+                    <a href="#">facebook</a>
+                    <a href="#">instagram</a>
+                    <a href="#">twitter</a>
+                    <a href="#">linkedin</a>
+                </div>
+
+            </div>
+            <h1 class="credit"> created by <span> PlantCare </span> all rights reserved!</h1>
+
+        </section>
+
+    <!--footer section ends-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+ 	<script src="C:\Users\Malvika\Desktop\wmnweb\script.js>
+        
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+
+     <script src="C:\Users\hp\Desktop\htmlFile\wmnfirebase.js"></script>
+        
+
+
+    </script>
+
+ </body>
+ </html>
